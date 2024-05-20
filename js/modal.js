@@ -37,7 +37,7 @@ function loadmodal(CategoryId, key){
 
         out+='<div class="modal-title">';
         out+='<h2 class="modal-title-name">'+data[key]['brand']+' '+data[key]['model']+'</h2>';
-        out+='<h3 class="modal-title-price">'+parseFloat((data[key]['price'])).toLocaleString('ru')+' ₽'+'</h3>';
+        out+='<h3 class="modal-title-price">'+'по запросу'+'</h3>';
         out+='</div>';
         
         out+='<div class="modal-images-and-contact-wrapper">';
