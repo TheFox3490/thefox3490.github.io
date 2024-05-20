@@ -35,7 +35,7 @@ function loadItems(CategoryId, count) {
 
         out+='<div class="catalog-item-price">';
         out+='<span>'+'Цена:'+'</span>';
-        out+='<span>'+parseFloat((data[key]['price'])).toLocaleString('ru')+' руб.'+'</span>';
+        out+='<span>'+'по запросу'+'</span>';
         out+='</div>';
         out+='<div class="catalog-item-buttons">';
         out+='<button onclick="openmodal.call(this);" key="' + key + '" class="catalog-item-more-btn">'+'Подробнее'+'</button>';
