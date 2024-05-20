@@ -1,0 +1,221 @@
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: baseline;
+    justify-content: center;
+    overflow-y: scroll;
+    z-index: 4;
+    display: none;
+}
+.modal.active{
+    display: flex;
+}
+body.modal-open{
+    overflow: hidden;
+}
+.modal .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #FFF;
+    opacity: 0.7;
+}
+.modal-window{
+    position: relative;
+    z-index: 4;
+    width: 1000px;
+    border: 3px solid #02458d;
+    border-radius: 20px;
+    background-color: #FFF;
+    padding: 45px 40px 80px 15px;
+}
+.modal-title{
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.modal-title-name, .modal-title-price{
+    font-weight: 700;
+    font-size: 36px;
+}
+.modal-images-and-contact-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.modal-images{
+    width: 570px;
+    min-height: 514px;
+    /* position: relative; */
+}
+.modal-images-preview{
+    width: 560px;
+    padding-top: 5px;
+    display: flex;
+    column-gap: 15px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+}
+.modal-main-img{
+    position: relative;
+}
+.modal-slider-current-pic{
+    width: 100%;
+    height: 430px;
+    border-radius: 10px;
+    transition: opacity 0.2s ease-in-out;
+}
+.modal-images-preview img{
+    border-radius: 10px;
+    width: 100px;
+    height: 80px;
+    cursor: pointer;
+}
+.modal-images-preview img:hover{
+    transform: scale(1.1);
+}
+.modal-slider-controls{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+    height: 40px;
+}
+.modal-slider-prev{
+    left: 15px; 
+}
+.modal-slider-next{
+    right: 15px; 
+}
+.modal-contacts{
+    display: flex;
+    flex-direction: column;
+}
+.modal-contacts a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 330px;
+    height: 80px;
+    text-decoration: none;
+}
+.modal-contacts-phone{
+    background: #02458d;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    margin: 20px 0;
+}
+.modal-contacts-phone img{
+    vertical-align: middle;
+    padding: 0 3px 2px 0;
+}
+.modal-contacts-call{
+    border: 2px solid #000;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 79%;
+    text-align: center;
+    color: #02458d;
+    cursor: pointer;
+}
+.modal-specs{
+    margin-top: 5px;
+}
+.modal-specs h3{
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 3px;
+}
+.modal-specs ul{
+    list-style: none;
+    max-height: 264px;
+    max-width: 275px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 50px;
+}
+.modal-specs ul li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: #757575;
+    font-family: "Manrope", sans-serif;
+    padding-bottom: 5px;
+}
+.modal-specs ul li span{
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    font-family: "Manrope", sans-serif;
+}
+.modal-description h3{
+    font-weight: 700;
+    font-size: 24px;
+}
+.modal-description p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 187%;
+    white-space: pre-line;
+}
+.modal-crm{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    z-index: 8;
+}
+.modal-crm.active{
+    display: flex;
+}
+.modal-crm-window{
+    position: relative;
+    z-index: 8;
+    width: 600px;
+    height: 550px;
+    border: 3px solid #02458d;
+    border-radius: 20px;
+    background-color: #FFF;
+}
+.modal-crm-close{
+    z-index: 99999;
+}
+.overlay-crm{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #FFF;
+    opacity: 0.7;
+}
+
+
+.modal-close{
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    border: none;
+}
+.modal-close:before, .modal-close:after {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 4px;
+    background: gray;
+}
+.modal-close:before {transform: rotate(45deg);}
+.modal-close:after {transform: rotate(-45deg);}

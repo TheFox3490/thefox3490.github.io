@@ -1,0 +1,1113 @@
+/*==========  Desktop First  ========== */
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1280px) {
+  .header-line-1{
+    max-width: 880px;
+    max-height: 26px;
+  }
+  .header-line-1-links, .header-line-1-geo{
+    margin-top: 0px;
+  }
+  .header-line-2-content{
+    max-width: 880px;
+  }
+  .slider, .slider-item img{
+    max-width: 1280px;
+    max-height: 472px;
+  }
+  .slider-promotion{
+    width: 400px;
+    height: 380px;
+  }
+  .slider-promotion-content{
+    margin: 0;
+    padding: 35px 0 0 20px;
+  }
+  .slider-promotion-date{
+    margin: 0;
+  }
+  .slider-promotion-title{
+    font-size: 30px;
+    margin: 20px 0 10px 0;
+  }
+  .slider-item-controls{
+    max-width: 22px;
+    max-height: 38px;
+  }
+  .slider-item-controls-next{
+    right: 30px;
+  }
+  .slider-item-controls-prev{
+    left: 30px;
+  }
+  .catalog{
+    margin-bottom: 35px;
+  }
+  .catalog-header{
+    height: 140px;
+  }
+  .catalog-title{
+    padding-top: 20px;
+    font-size: 32px;
+    max-width: 1100px;
+  }
+  .catalog-controls{
+    max-width: 980px;
+  }
+  .catalog-controls-index-page{
+    margin-top: 20px;
+  }
+  .catalog-controls button{
+    font-size: 24px;
+  }
+  .catalog-items{
+    max-width: 967px;
+    padding: 15px 0 45px 0;
+  }
+  .catalog-item{
+    max-height: 525px;
+    max-width: 300px;
+    padding: 19px 24px 30px 24px;
+  }
+  .catalog-item-title img{
+    max-width: 225px;
+    max-height: 150px;
+  }
+  .catalog-item-title h3{
+    font-size: 20px;
+    line-height: 95%;
+    height: 45px;
+    max-width: 250px;
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+  .catalog-item-specs-row span{
+    font-size: 16px;
+    line-height: 187%;
+    text-align: end;
+
+  }
+  .catalog-item-specs{
+    padding-bottom: 25px;
+    min-height: 145px;
+  }
+  .catalog-item-price span{
+    font-size: 16px;
+    line-height: 200%;
+  }
+  .catalog-item-buttons{
+    max-width: 225px;
+  }
+  .catalog-item-more-btn, .catalog-item-feedback-btn{
+    width: 225px !important;
+    height: 37px !important;
+  }
+  .catalog-more-btn{
+    border-radius: 20px;
+    max-width: 967px;
+    height: 55px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 146%;
+  }
+  .about{
+    max-width: 1000px;
+  }
+  .about h2{
+    margin-bottom: 15px;
+    font-size: 36px;
+  }
+  .about-text{
+    max-width: 580px;
+    margin-left: 13px;
+  }
+  .about-text p{
+    font-size: 16px;
+    line-height: 162%;
+  }
+  .about img{
+    width: 362px;
+    height: 78px;
+    margin-left: 30px;
+  }
+  .adventages{
+    margin-top: 20px;
+    background: center url(../img/index/adventages-bg.png);
+    height: 445px;
+  }
+  .adventages h2{
+    margin-bottom: 0;
+    padding: 40px 0 100px 0;
+    font-size: 36px;
+    line-height: 117%;
+  }
+  .adventage-items{
+    max-width: 1100px;
+  }
+  .adventage-item img{
+    width: 38px;
+    height: 42px;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+  }
+  .adventage-item p{
+    font-size: 16px;
+    line-height: 237%;
+  }
+  .reviews{
+    max-width: 800px;
+  }
+  .reviews h2{
+    margin: 40px 0;
+  }
+  .reviews-items{
+    margin-bottom: 40px;
+  }
+  .reviews-item{
+    width: 375px;
+    height: 312px;
+    padding: 30px 25px 15px 25px;
+  }
+  .reviews-item-title{
+    padding: 0px 0px 20px 0px;
+  }
+  .reviews-item-title p{
+    font-size: 16px;
+    line-height: 180%;
+    font-weight: 700;
+  }
+  .reviews-item-title img{
+    width: 45px;
+    height: 45px;
+  }
+  .reviews-item-text{
+    padding: 0px 0px 0px 0px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 175%;
+    height: 172px;
+  }
+  .reviews-item-name{
+    padding: 5px 0 0px 0px;
+    font-size: 11px;
+  }
+  .reviews-all-btn{
+    height: 80px;
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  .contacts-wrapper{
+    height: 600px;
+  }
+  .contacts{
+    padding-top: 45px;
+    max-width: 1000px;
+  }
+  .contact-info h2{
+    padding-bottom: 20px;
+  }
+  .contact-info{
+    padding-bottom: 100px;
+  }
+  footer{
+    height: 500px;
+  }
+  .footer-content{
+    max-width: 840px;
+    justify-content: space-between;
+  }
+  .footer-logo-column{
+    padding: 45px 85px 0 0;
+  }
+  .footer-nav{
+    width: 280px;
+    margin: 0;
+    margin-top: 25px;
+  }
+  .footer-contacts-column{
+    margin-top: 25px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .header-line-1{
+    max-width: 940px;
+    padding: 0 30px;
+  }
+  .header-line-2-content{
+    max-width: 940px;
+    padding: 0 30px;
+  }
+  .slider-promotion{
+    top: 10%;
+    left: 12%
+  }
+  .catalog-title{
+    max-width: 1000px;
+    margin: 0;
+    padding-left: 25px;
+  }
+  .catalog-controls{
+    max-width: 960px;
+    padding: 0 30px;
+  }
+  .contacts{
+    max-width: 950px;
+  }
+  .catalog-controls-catalog-page{
+    padding-top: 55px;
+  }
+  .catalog-items{
+    max-width: 997px;
+    padding: 15px 15px 45px 15px;
+  }
+  .catalog-more-btn-wrapper{
+    padding: 0 15px;
+  }
+  .about{
+    padding-left: 10px;
+  }
+  .adventage-items{
+    max-width: 1000px;
+    padding: 0 20px;
+  }
+  .reviews{
+    max-width: 840px;
+    padding: 20px 20px 0 20px;
+  }
+  .contacts-wrapper{
+    min-height: 600px;
+  }
+  .contacts{
+    max-width: 990px;
+    padding: 45px 20px 0 20px;
+  }
+  .crm{
+    width: 480px;
+  }
+  footer{
+    padding: 0 15px;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .header-line-2-contacts{
+    justify-content: space-between;
+    width: 600px;
+    padding-left: 5px;
+  }
+  .header-line-2-socials a{
+    padding-left: 12px;
+  }
+  .header-line-2-phone{
+    padding: 0 5px;
+  }
+  .header-line-2-phone a{
+    padding-left: 0px;
+  }
+  .header-line-2-call a{
+    width: 150px;
+  }
+  .slider, .slider-item img{
+    max-height: 380px;
+  }
+  .slider-promotion{
+    width: 350px;
+    height: 330px;
+  }
+  .slider-promotion-content button{
+    width: 220px;
+    height: 50px;
+    margin-top: 20px;
+    border: #02458D 2px solid;
+    font-size: 20px;
+  }
+  .catalog-items{
+    max-width: 663px;
+  }
+  .catalog-more-btn{
+    max-width: 633px;
+  }
+  .about img{
+    display: none;
+  }
+  .adventage-items{
+    column-gap: 8px;
+  }
+  .reviews-item{
+    padding: 30px 15px 15px 15px;
+    max-width: 355px;
+  }
+  .modal-window{
+    width: 95%;
+    padding: 40px 20px 50px 20px;
+  }
+  .modal-images-and-contact-wrapper{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .modal-contacts{
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 20px;
+    padding: 15px 0;
+  }
+  .modal-contacts-phone{
+    margin: 0;
+    width: 275px;
+  }
+  .modal-contacts a{
+    width: 275px;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  body.lock{
+    overflow: hidden;
+  }
+  header{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header-line-2{
+    width: 100%;
+    z-index: 3;
+  }
+  .header-line-2-content{
+    position: relative;
+  }
+  .header-line-2-logo{
+    position: relative;
+    z-index: 3;
+  }
+  .header-burger{
+    position: relative;
+    display: block;
+    width: 45px;
+    height: 30px;
+    align-self: center;
+    z-index: 3;
+    background-color: #02458D;
+  }
+  .header-burger span{
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    top: 14px;
+    border-radius: 20px;
+  }
+  .header-burger:before,
+  .header-burger:after{
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    left: 0;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+  }
+  .header-burger:before{
+    top: 0;
+  }
+  .header-burger:after{
+    bottom: 0;
+  }
+  .header-burger.active:before{
+    transform: rotate(45deg);
+    top: 13px;
+  }
+  .header-burger.active:after{
+    transform: rotate(-45deg);
+    bottom: 14px;
+  }
+  .header-burger.active span{
+    transform: scale(0);
+    transition: all 0.3s ease;
+  }
+  .header-line-1{
+    order: 1;
+  }
+  .header-line-2-contacts{
+    max-width: none;
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background-color: #02458D;
+    z-index: 2;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    transition: all 0.3s ease;
+  }
+  .header-line-2-contacts.active{
+    top: 80px;
+  }
+  .header-line-2-phone a{
+    font-size: 28px;
+  }
+  .header-line-2-call{
+    margin-top: 10px;
+  }
+  .header-line-2-call a{
+    width: 240px;
+    height: 50px;
+  }
+  .header-line-2-socials{
+    order: 3;
+    margin-top: 25px;
+    display: flex;
+    column-gap: 45px;
+  }
+  .header-line-2-socials a img{
+    width: 50px;
+    height: 50px;
+  }
+  .header-line-2-socials a{
+    max-width: fit-content;
+    max-height: fit-content;
+    padding-left: 0px;
+  }
+  .slider-item-controls-prev{
+    left: 15px;
+  }
+  .slider-item-controls-next{
+    right: 15px;
+  }
+  .slider, .slider-item img{
+    max-height: 360px;
+  }
+  .slider-promotion{
+    width: 300px;
+    height: 280px;
+  }
+  .slider-promotion-content{
+    padding: 20px 0 0 20px;
+  }
+  .slider-promotion-date{
+    font-size: 18px;
+    padding-top: 6px;
+  }
+  .slider-promotion-title{
+    font-size: 24px;
+    margin: 10px 0 0px 0;
+  }
+  .slider-promotion-content button{
+    width: 220px;
+    height: 50px;
+    margin-top: 20px;
+    border: #02458D 2px solid;
+    font-size: 20px;
+  }
+  .catalog-header{
+    height: 120px;
+  }
+  .catalog-header-catalog-page{
+    height: 80px;
+  }
+  .catalog-title{
+    padding-top: 10px;
+  }
+  .catalog-controls-index-page{
+    margin-top: 10px;
+  }
+  .catalog-controls-catalog-page{
+    padding-top: 30px;
+  }
+  .about{
+    padding: 0 10px;
+  }
+  .reviews h2{
+    margin: 0 0 30px 0;
+  }
+  .reviews-items{
+    justify-content: center;
+  }
+  .reviews-items .reviews-item:nth-child(2){
+    display: none;
+  }
+  .reviews-item-text{
+    font-size: 12px;
+  }
+  .reviews-all-btn{
+    width: 355px;
+    margin: 0 auto 25px auto;
+  }
+  .adventages{
+    height: fit-content;
+    padding: 25px 0 15px 0;
+  }
+  .adventages h2{
+    padding: 0px 10px 30px 10px;
+    font-size: 32px;
+  }
+  .adventage-items{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+  }
+  .adventage-item img{
+    margin-bottom: 10px;
+  }
+  .contacts-wrapper{
+    padding: 30px 20px 0 20px;
+    height: auto;
+  }
+  .contacts{
+    padding: 0;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  .crm{
+    width: 100%;
+    height: 520px;
+    display: flex;
+    justify-content: center;
+  }
+  .contact-info{
+    padding-bottom: 0px;
+  }
+  .contact-info-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding-bottom: 10px;
+  }
+  .contact-info-content-title{
+    font-size: 22px;
+  }
+  footer{
+    padding: 0 25px;
+    min-height: 400px;
+    height: auto;
+  }
+  .footer-content{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 560px;
+  }
+  .footer-contacts-column{
+    order: 2;
+    width: 240px;
+    max-width: none;
+  }
+  .footer-nav{
+    order: 1;
+    justify-content: space-between;
+    width: 240px;
+    padding-right: 10px;
+  }
+  .footer-nav li{
+    padding-bottom: 8px;
+  }
+  .footer-nav li a{
+    font-size: 14px;
+  }
+  .footer-logo-column{
+    order: 3;
+    padding: 45px 0 20px 0;
+    width: 240px;
+  }
+}
+@media only screen and (max-width: 719px){
+  .header-line-1{
+    flex-wrap: wrap;
+    max-height: 60px;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 400px;
+  }
+  .header-line-1-geo{
+    width: 100%;
+    justify-content: space-between;
+  }
+  .header-line-1-geo span{
+    padding-right: 0px;
+  }
+  .header-line-1-links{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-line-1-links a{
+    padding-left: 0px;
+    font-size: 20px;
+  }
+  .header-line-2{
+    height: 60px;
+  }
+  .header-line-2-logo{
+    padding-top: 8px;
+    background-color: #02458D;
+  }
+  .header-line-2-contacts.active{
+    top: 60px;
+  }
+}
+@media only screen and (max-width: 664px) {
+  .slider, .slider-item img{
+    max-height: 260px;
+  }
+  .slider-item-controls-prev{
+    left: 10px;
+  }
+  .slider-item-controls-next{
+    right: 10px;
+  }
+  .slider-promotion {
+    top: 15%;
+    width: 200px;
+    height: 180px;
+  }
+  .slider-promotion-content {
+    padding: 10px 0 0 10px;
+  }
+  .slider-promotion-date {
+    font-size: 14px;
+    padding-top: 6px;
+    width: 140px;
+    height: 35px;
+  }
+  .slider-promotion-title{
+    font-size: 18px;
+    margin: 5px 0 0px 0;
+    line-height: 24px;
+  }
+  .slider-promotion-subtitle {
+    font-size: 16px;
+  }
+  .slider-promotion-content button{
+    width: 140px;
+    height: 35px;
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  .catalog{
+    margin-bottom: 20px;
+  }
+  .catalog-title{
+    padding-left: 10px;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .catalog-controls{
+    padding: 0 10px;
+  }
+  .catalog-controls-catalog-page{
+    padding-top: 26px
+  }
+  .catalog-items {
+    max-width: 330px;
+    padding: 15px 15px 30px 15px;
+  }
+  .catalog-more-btn {
+    max-width: 300px;
+  }
+  .reviews-items{
+    margin-bottom: 25px;
+  }
+  .modal-title{
+    padding-bottom: 10px;
+  }
+  .modal-window{
+    width: 100%;
+  }
+  .modal-title-name{
+    padding-right: 5px;
+  }
+  .modal-title-name,
+  .modal-title-price{
+    font-size: 32px;
+  }
+  .modal-images{
+    width: 400px;
+    min-height: 380px;
+  }
+  .modal-slider-current-pic{
+    height: 300px;
+  }
+  .modal-images-preview{
+    width: 400px;
+  }
+  .modal-images-preview img{
+    width: 88px;
+    height: 66px;
+  }
+  .modal-slider-next{
+    right: 10px;
+  }
+  .modal-slider-prev{
+    left: 10px;
+  }
+  .modal-contacts{
+    padding: 15px 10px;
+    justify-content: center;
+    row-gap: 15px;
+  }
+  .modal-specs ul{
+    max-height: none;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .modal-window{
+    padding-top: 20px;
+  }
+  .modal-title{
+    flex-direction: column;
+    padding-right: 35px;
+  }
+  .slider-item-controls-prev{
+    left: 5px;
+  }
+  .slider-item-controls-next{
+    right: 5px;
+  }
+  .slider-promotion{
+    left: 8%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .header-line-2-call a{
+    font-size: 18px;
+  }
+  .slider, .slider-img{
+    max-height: 230px;
+  }
+  .slider-item-controls-next{
+    right: 8px;
+  }
+  .slider-item-controls-prev{
+    left: 8px;
+  }
+  .slider-item-controls{
+    display: none;
+  }
+  .slider-promotion {
+    left: 5%;
+    top: 15%;
+    width: 180px;
+    height: 160px;
+  }
+  .slider-promotion-date {
+    padding-top: 3px;
+    width: 100px;
+    height: 25px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .slider-promotion-title{
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .slider-promotion-subtitle{
+    font-size: 14px;
+  }
+  .slider-promotion-content button{
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .catalog-title{
+    font-weight: 600;
+  }
+  .catalog-controls button{
+    font-size: 20px;
+  }
+  .catalog-item{
+    border: #02458D 2px solid;
+  }
+  .catalog-more-btn{
+    border: #02458D 2px solid;
+    font-size: 22px;
+  }
+  .about h2{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  .adventages h2{
+    font-weight: 600;
+  }
+  .adventage-item p{
+    font-size: 14px;
+  }
+  .reviews{
+    padding: 10px 10px 0 10px;
+  }
+  .reviews h2{
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  .reviews-item{
+    border: 2px solid #02458d;
+  }
+  .reviews-all-btn{
+    height: 55px;
+    border: 2px solid #02458d;
+  }
+  .contacts{
+    justify-content: initial;
+  }
+  .contact-info h2{
+    font-weight: 600;
+    font-size: 32px;
+  }
+  .contact-info-content{
+    display: block;
+  }
+  .modal-window{
+    padding: 20px 10px 40px 10px;
+  }
+  .modal-title{
+    flex-direction: column;
+    padding-right: 35px;
+  }
+  .modal-title-name{
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: 500;
+    padding-bottom: 5px;
+  }
+  .modal-title-price{
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: 600;
+  }
+  .modal-images{
+    width: 100%;
+  }
+  .modal-slider-current-pic{
+    height: 300px;
+  }
+  .modal-images-preview{
+    width: 100%;
+    column-gap: 10px;
+  }
+  .modal-images-preview img{
+    width: calc(23% - 1px);
+    display: flex;
+  }
+  .modal-contacts a{
+    height: 60px;
+  }
+  .modal-contacts-call{
+    font-size: 22px;
+  }
+  ::-webkit-scrollbar{
+    display: none;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .header-line-1{
+    padding: 0 5px;
+  }
+  .header-line-2-content{
+    padding: 0 5px;
+  }
+  .slider, .slider-img{
+    max-height: 200px;
+  }
+  .slider-promotion{
+    width: 160px;
+    height: 140px;
+    top: 15%;
+    left: 3%;
+  }
+  .slider-promotion-date{
+    height: 20px;
+    padding-top: 0px;
+  }
+  .slider-promotion-title{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+  .slider-promotion-content button{
+    width: 120px;
+    height: 30px;
+  }
+  .catalog-header{
+    height: auto;
+    padding: 0 10px 10px 10px;
+  }
+  .catalog-title{
+    padding-top: 0;
+    padding-left: 0px;
+    font-size: 24px;
+  }
+  .catalog-header-catalog-page{
+    height: 60px;
+  }
+  .catalog-controls{
+    padding: 0;
+  }
+  .catalog-controls-catalog-page{
+    padding-top: 20px;
+  }
+  .catalog-controls button{
+    display: flex;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .about h2{
+    font-size: 28px;
+  }
+  .adventages h2{
+    font-size: 28px;
+  }
+  .reviews h2{
+    font-size: 28px;
+  }
+  .reviews-all-btn{
+    font-size: 22px;
+    font-weight: 600;
+    width: 100%;
+    padding: 0 10px;
+  }
+  .about-text p{
+    font-size: 14px;
+  }
+  .contact-info{
+    padding-top: 10px;
+  }
+  .modal-images{
+    min-height: 320px;
+  }
+  .modal-slider-current-pic{
+    height: 260px;
+  }
+  .modal-images-preview img{
+    width: calc(23% - 2px);
+    display: flex;
+    height: 50px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .header-line-1-links a{
+    font-size: 18px;
+  }
+  .slider, .slider-item img{
+    max-height: 180px;
+  }
+  .slider-promotion{
+    top: 10%;
+    left: 2%;
+  }
+  .catalog-more-btn{
+    font-size: 20px;
+  }
+  .about h2{
+    font-size: 24px;
+  }
+  .about-text p{
+    font-size: 12px;
+  }
+  .adventages h2{
+    font-size: 20px;
+  }
+  .adventage-item img{
+    margin-bottom: 5px;
+    width: 32px;
+    height: 36px;
+  }
+  .adventage-item p{
+    font-size: 12px;
+  }
+  .reviews h2{
+    font-size: 20px;
+  }
+  .reviews-item{
+    padding: 10px 7px 7px 10px;
+    height: 275px;
+  }
+  .reviews-item-title{
+    padding: 0px 0px 5px 0px;
+  }
+  .reviews-item-title p{
+    font-weight: 600;
+  }
+  .reviews-all-btn{
+    font-size: 20px;
+  }
+  .contact-info h2{
+    font-size: 28px;
+    padding-bottom: 10px;
+  }
+  .contact-info-content-title{
+    font-size: 18px;
+  }
+  .contact-info-content-text{
+    font-size: 18px;
+    padding-bottom: 15px;
+  }
+  .modal-window{
+    padding: 10px 7px 20px 7px;
+    border: 2px solid #02458d;
+  }
+  .modal-title-name, .modal-title-price{
+    font-size: 24px;
+    padding-bottom: 0px;
+  }
+  .modal-slider-controls{
+    display: none;
+  }
+  .modal-slider-current-pic{
+    height: 230px;
+  }
+  .modal-contacts{
+    row-gap: 10px;
+  }
+  .modal-contacts a{
+    height: 50px;
+    width: 250px;
+  }
+  .modal-contacts-phone{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .modal-contacts-phone img{
+    height: 20px;
+    width: 20px;
+  }
+  .modal-contacts-call{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .modal-specs ul li{
+    font-size: 14px;
+  }
+  .modal-description p{
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+/*==========  Mobile First  ========== */
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /* */
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /* */
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /* */
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /* */
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /* */
+}
+
+/*# sourceMappingURL=adaptive.css.map */
